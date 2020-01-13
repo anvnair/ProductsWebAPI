@@ -1,0 +1,15 @@
+C:\c1\Api\ProductsService\bin\Debug\netcoreapp2.0\ProductListApi.deps.json
+C:\c1\Api\ProductsService\bin\Debug\netcoreapp2.0\ProductListApi.runtimeconfig.json
+C:\c1\Api\ProductsService\bin\Debug\netcoreapp2.0\ProductListApi.runtimeconfig.dev.json
+C:\c1\Api\ProductsService\bin\Debug\netcoreapp2.0\ProductListApi.dll
+C:\c1\Api\ProductsService\bin\Debug\netcoreapp2.0\ProductListApi.pdb
+C:\c1\Api\ProductsService\obj\Debug\netcoreapp2.0\ProductListApi.csproj.CoreCompileInputs.cache
+C:\c1\Api\ProductsService\obj\Debug\netcoreapp2.0\ProductListApi.RazorAssemblyInfo.cache
+C:\c1\Api\ProductsService\obj\Debug\netcoreapp2.0\ProductListApi.RazorAssemblyInfo.cs
+C:\c1\Api\ProductsService\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\c1\Api\ProductsService\obj\Debug\netcoreapp2.0\ProductListApi.AssemblyInfoInputs.cache
+C:\c1\Api\ProductsService\obj\Debug\netcoreapp2.0\ProductListApi.AssemblyInfo.cs
+C:\c1\Api\ProductsService\obj\Debug\netcoreapp2.0\ProductListApi.RazorTargetAssemblyInfo.cache
+C:\c1\Api\ProductsService\obj\Debug\netcoreapp2.0\ProductListApi.dll
+C:\c1\Api\ProductsService\obj\Debug\netcoreapp2.0\ProductListApi.pdb
+C:\c1\Api\ProductsService\obj\Debug\netcoreapp2.0\ProductListApi.csprojAssemblyReference.cache
