@@ -9,7 +9,6 @@ using Microsoft.Extensions.DependencyInjection;
 using ProductService.Services;
 #endregion
 
-
 /// <summary>
 /// Hands on assignment for Asessment
 /// Product service with a get and post
