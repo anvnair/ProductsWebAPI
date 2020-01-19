@@ -59,7 +59,7 @@ namespace ProductListApiTest
 
         /// <summary>Gets the test asynchronous for all products</summary>
         [Test]
-        public async void AddNewProducts_Always_AddSuccessfully()
+        public async Task AddNewProducts_Always_AddSuccessfully()
         {
             Mock<IProductRepositoryService> prodRepo = new Mock<IProductRepositoryService>();
             var mockSet = new Mock<ProductItem>();

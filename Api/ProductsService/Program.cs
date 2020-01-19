@@ -1,15 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Threading.Tasks;
+﻿#region Namespaces
 using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.Logging;
 
+#endregion
+
+/// <summary>
+/// Web Api for Products
+/// </summary>
 namespace ProductService
 {
+    /// <summary>
+    ///   <para></para>
+    ///   <para></para>
+    /// </summary>
     public class Program
     {
         public static void Main(string[] args)
@@ -17,6 +20,9 @@ namespace ProductService
             BuildWebHost(args).Run();
         }
 
+        /// <summary>Builds the web host.</summary>
+        /// <param name="args">The arguments.</param>
+        /// <returns></returns>
         public static IWebHost BuildWebHost(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>()
