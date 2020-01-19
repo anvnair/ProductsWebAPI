@@ -20,7 +20,7 @@ using ProductService.Services;
 namespace ProductListApiTest
 {
     /// <summary>Controller to test Product list api</summary>
-    public class ProductControllerTest
+    public class WhenProductControllerCalledFor
     {
         /// <summary>The mock product repository service</summary>
         private Mock<IProductRepositoryService> mockProductRepositoryService = new Mock<IProductRepositoryService>();
@@ -40,7 +40,7 @@ namespace ProductListApiTest
         }
         /// <summary>Gets the test asynchronous for all products</summary>
         [Test]
-        public void GetTestAsync()
+        public void AllProducts_Initially_ReturnsAllProducts()
         {
             string userToken = (user.FindFirst(ClaimTypes.NameIdentifier))?.Value;
             mockProductRepositoryService.Setup(x => x.GetAllProducts(userToken)).Returns(GetAllProducts());
@@ -50,7 +50,7 @@ namespace ProductListApiTest
         }
         /// <summary>Posts the test asynchronous for new item</summary>
         [Test]
-        public void PostTestAsync()
+        public void AddNewProduct_Always_SuccessfullyAddItem()
         {
             var productItemAddCommand = new ProductItemAddCommand();
             mockMediator.Setup(x => x.Send(It.IsAny<ProductItemAddCommand>(), new CancellationToken())).Returns(Task.FromResult(GetProductItem()));

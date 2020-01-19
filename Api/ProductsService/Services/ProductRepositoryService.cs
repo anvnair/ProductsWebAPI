@@ -36,7 +36,7 @@ namespace ProductService.Services
              .Options;
                 using (var context = new ProductContext(options))
                 {
-                    products= context.Product.Where(t => t.Owner == owner).ToList();
+                    products= context.Products.Where(t => t.Owner == owner).ToList();
                 }
             }
             //Not using any exception variable as not performing any operation on exception
@@ -60,7 +60,7 @@ namespace ProductService.Services
                 using (var context = new ProductContext(options))
                 {
                     //Anish:  Need to be implemented with DTO object using Automapper for mapping to user model
-                    context.Product.Add(new ProductItem { Owner = NewProduct.Owner, Title = NewProduct.Title });
+                    context.Products.Add(new ProductItem { Owner = NewProduct.Owner, Title = NewProduct.Title });
                     await context.SaveChangesAsync();
                 }
             }

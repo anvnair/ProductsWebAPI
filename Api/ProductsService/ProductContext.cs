@@ -20,6 +20,6 @@ namespace ProductService
 
         /// <summary>Gets or sets the product.</summary>
         /// <value>The product.</value>
-        public DbSet<ProductItem> Product { get; set; }
+        public DbSet<ProductItem> Products { get; set; }
     }
 }
